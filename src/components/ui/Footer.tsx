@@ -30,9 +30,19 @@ export default function Footer() {
           
           {/* Logo & Newsletter */}
           <div className="space-y-8">
-            <div className="space-y-2">
-              <h2 className="font-script text-4xl text-neutral-900 leading-none">Needle Hue Art</h2>
-              <p className="text-[10px] tracking-[0.3em] uppercase text-rose-500 font-medium">The Artisan Studio</p>
+            <div className="space-y-4">
+              <div className="relative w-20 h-20">
+                <img 
+                  src="/logo.jpeg" 
+                  alt="Needle Hue Art Logo" 
+                  className="w-full h-full object-contain"
+                  onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+                />
+              </div>
+              <div>
+                <h2 className="font-script text-4xl text-neutral-900 leading-none">Needle Hue Art</h2>
+                <p className="text-[10px] tracking-[0.3em] uppercase text-rose-500 font-medium">The Artisan Studio</p>
+              </div>
             </div>
             
             <div className="space-y-4">
