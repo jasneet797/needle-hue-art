@@ -5,11 +5,11 @@ import { PrismaAdapter } from "@auth/prisma-adapter";
 import { prisma } from "@/lib/prisma";
 
 export const authOptions = {
-  adapter: process.env.DATABASE_URL && !process.env.DATABASE_URL.includes("dummy") ? PrismaAdapter(prisma) : undefined,
+  adapter: undefined, 
   providers: [
     GoogleProvider({
-      clientId: process.env.GOOGLE_CLIENT_ID!,
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
+      clientId: process.env.GOOGLE_CLIENT_ID || "dummy",
+      clientSecret: process.env.GOOGLE_CLIENT_SECRET || "dummy",
     }),
   ],
   callbacks: {
