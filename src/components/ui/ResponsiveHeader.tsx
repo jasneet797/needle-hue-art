@@ -55,7 +55,7 @@ export default function ResponsiveHeader({ onCartOpen }: { onCartOpen: () => voi
           >
             <div className="relative w-16 h-16 md:w-20 md:h-20">
               <img 
-                src="/logo.png" 
+                src="/logo.jpeg" 
                 alt="Needle Hue Art Logo" 
                 className="w-full h-full object-contain drop-shadow-md"
               />
