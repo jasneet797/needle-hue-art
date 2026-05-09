@@ -53,20 +53,12 @@ export default function ResponsiveHeader({ onCartOpen }: { onCartOpen: () => voi
             whileHover={{ scale: 1.05 }}
             className="relative flex flex-col items-center"
           >
-            <div className="relative w-20 h-20 md:w-24 md:h-24 mb-2">
+            <div className="relative w-20 h-20 md:w-24 md:h-24">
               <img 
-                src="/logo.jpeg" 
+                src="/new_logo.jpeg" 
                 alt="Needle Hue Art Logo" 
                 className="w-full h-full object-contain drop-shadow-md"
-                onError={(e) => {
-                  (e.target as HTMLImageElement).style.display = 'none';
-                  const fallback = document.getElementById('logo-fallback');
-                  if (fallback) fallback.style.display = 'block';
-                }}
               />
-              <div id="logo-fallback" className="hidden font-script text-4xl md:text-5xl tracking-tight bg-gradient-to-r from-rose-600 via-amber-500 to-rose-600 bg-clip-text text-transparent leading-none drop-shadow-sm">
-                Needle Hue Art
-              </div>
             </div>
           </motion.div>
           <div className="flex items-center gap-3 mt-3">
