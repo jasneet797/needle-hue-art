@@ -25,6 +25,8 @@
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
+  --font-sans: var(--font-inter);
+  --font-script: var(--font-playfair);
 }
 
 :root {
