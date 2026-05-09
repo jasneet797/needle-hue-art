@@ -89,7 +89,7 @@ export default function Footer() {
                 <Link href="https://facebook.com/needlehue.art" target="_blank" className="text-neutral-900 hover:text-rose-500 transition-colors">
                   <FacebookIcon size={20} className="hover:scale-110 transition-transform" />
                 </Link>
-                <Link href="mailto:hello@needlehue.art" className="text-neutral-900 hover:text-rose-500 transition-colors">
+                <Link href="mailto:needlehue.art@gmail.com" className="text-neutral-900 hover:text-rose-500 transition-colors">
                   <Mail size={20} strokeWidth={1.5} />
                 </Link>
               </div>
@@ -97,7 +97,7 @@ export default function Footer() {
 
             <div className="space-y-2">
               <p className="text-[10px] italic text-neutral-400">Artelier Location:</p>
-              <p className="text-[10px] tracking-widest text-neutral-600 uppercase font-medium">Ludhiana • Punjab</p>
+              <p className="text-[10px] tracking-widest text-neutral-600 uppercase font-medium">Patiala • Punjab</p>
             </div>
           </div>
 
