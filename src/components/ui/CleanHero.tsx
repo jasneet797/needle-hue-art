@@ -21,16 +21,16 @@ export function CleanHero() {
       {/* Organic Noise Overlay for Luxury Editorial Feel */}
       <div className="absolute inset-0 opacity-[0.03] pointer-events-none mix-blend-multiply" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.65%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22/%3E%3C/svg%3E")' }} />
 
-      <div className="relative z-10 container mx-auto px-6 lg:px-12 flex flex-col md:flex-row items-center justify-between gap-16 pt-24 pb-24">
+      <div className="relative z-10 container mx-auto px-6 lg:px-12 flex flex-col md:flex-row items-center justify-center lg:justify-between gap-12 lg:gap-16 pt-24 pb-24">
         
         {/* Left: Refined Typography & CTA */}
-        <div className="flex-1 space-y-10 text-center md:text-left z-20">
+        <div className="flex-1 space-y-10 text-center md:text-left z-20 max-w-2xl">
           
           <motion.h1 
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
-            className="text-6xl md:text-7xl lg:text-[6.5rem] font-script text-neutral-900 leading-[1.2] tracking-tight"
+            className="text-6xl md:text-7xl lg:text-[5.5rem] font-script text-neutral-900 leading-[1.2] tracking-tight"
           >
             Handcrafted <br />
             <span className="italic text-rose-500 font-light pr-4">Elegance</span>
