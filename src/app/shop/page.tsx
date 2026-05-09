@@ -13,16 +13,16 @@ import BespokeHoops from "@/components/shop/BespokeHoops";
 import VideoShowcase from "@/components/ui/VideoShowcase";
 
 const products = [
-  { id: 1, name: "The Chanderi Whisper", price: "₹2,500", priceCents: 250000, craft: "Hand-painted", status: "Unstitched", occasion: "Festive", image: "/suit_floral_chiffon_1778237758340.png" },
-  { id: 2, name: "Pastel Rose Ghera", price: "₹4,200", priceCents: 420000, craft: "Embroidery", status: "Semi-stitched", occasion: "Wedding Guest", image: "/suit_hand_embroidery_1778237780847.png" },
-  { id: 3, name: "Gulabi Hot Pink", price: "₹1,800", priceCents: 180000, craft: "Lace Work", status: "Unstitched", occasion: "Mehendi", image: "/suit_hot_pink_lace_1778237803565.png" },
-  { id: 4, name: "Summer Ocean Breeze", price: "₹3,500", priceCents: 350000, craft: "Embroidery", status: "Ready to Wear", occasion: "Formal Office", image: "/suit_blue_floral_1778237827119.png" },
-  { id: 5, name: "Dusty Rose Bullion", price: "₹5,800", priceCents: 580000, craft: "Embroidery", status: "Unstitched", occasion: "Jaggo", image: "/suit_dusty_rose_bullion_1778247137355.png" },
-  { id: 6, name: "Mint Damask Palazzo", price: "₹2,900", priceCents: 290000, craft: "Fusion", status: "Semi-stitched", occasion: "Festive", image: "/suit_mint_damask_1778247167976.png" },
-  { id: 7, name: "Bright Pink Luxe", price: "₹4,500", priceCents: 450000, craft: "Lace Work", status: "Ready to Wear", occasion: "Wedding Guest", image: "/suit_bright_pink_cutout_1778247184467.png" },
-  { id: 8, name: "Peach Blossom Bell", price: "₹3,200", priceCents: 320000, craft: "Fusion", status: "Unstitched", occasion: "Formal Office", image: "/suit_peach_floral_bell_1778247200657.png" },
-  { id: 9, name: "Spring Green Garden", price: "₹2,200", priceCents: 220000, craft: "Hand-painted", status: "Semi-stitched", occasion: "Mehendi", image: "/suit_green_red_flowers_1778248114194.png" },
-  { id: 10, name: "Classic Beige Bullion", price: "₹6,500", priceCents: 650000, craft: "Embroidery", status: "Unstitched", occasion: "Wedding Guest", image: "/suit_beige_bullion_rose_1778248135580.png" },
+  { id: 1, name: "Royal Purple Bloom", price: "₹1,850", priceCents: 185000, craft: "Hand-painted", status: "Unstitched", occasion: "Festive", image: "/first.jpeg" },
+  { id: 2, name: "Daisy Meadow Suite", price: "₹2,200", priceCents: 220000, craft: "Embroidery", status: "Semi-stitched", occasion: "Wedding Guest", image: "/second.jpeg" },
+  { id: 3, name: "Artisanal Grey Hibiscus", price: "₹2,400", priceCents: 240000, craft: "Hand-painted", status: "Unstitched", occasion: "Mehendi", image: "/third.jpeg" },
+  { id: 4, name: "Cream Crimson Rose", price: "₹1,950", priceCents: 195000, craft: "Embroidery", status: "Ready to Wear", occasion: "Formal Office", image: "/fourth.jpeg" },
+  { id: 5, name: "Dusty Rose Bullion", price: "₹2,800", priceCents: 280000, craft: "Embroidery", status: "Unstitched", occasion: "Jaggo", image: "/suit_dusty_rose_bullion_1778247137355.png" },
+  { id: 6, name: "Mint Damask Palazzo", price: "₹1,600", priceCents: 160000, craft: "Fusion", status: "Semi-stitched", occasion: "Festive", image: "/suit_mint_damask_1778247167976.png" },
+  { id: 7, name: "Bright Pink Luxe", price: "₹2,500", priceCents: 250000, craft: "Lace Work", status: "Ready to Wear", occasion: "Wedding Guest", image: "/suit_bright_pink_cutout_1778247184467.png" },
+  { id: 8, name: "Peach Blossom Bell", price: "₹1,750", priceCents: 175000, craft: "Fusion", status: "Unstitched", occasion: "Formal Office", image: "/suit_peach_floral_bell_1778247200657.png" },
+  { id: 9, name: "Spring Green Garden", price: "₹1,400", priceCents: 140000, craft: "Hand-painted", status: "Semi-stitched", occasion: "Mehendi", image: "/suit_green_red_flowers_1778248114194.png" },
+  { id: 10, name: "Classic Beige Bullion", price: "₹2,650", priceCents: 265000, craft: "Embroidery", status: "Unstitched", occasion: "Wedding Guest", image: "/suit_beige_bullion_rose_1778248135580.png" },
 ];
 
 export default function ShopPage() {
