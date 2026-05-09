@@ -51,29 +51,25 @@ export default function ResponsiveHeader({ onCartOpen }: { onCartOpen: () => voi
         <Link href="/" className="flex flex-col items-center text-center group relative">
           <motion.div 
             whileHover={{ scale: 1.02 }}
-            className="relative flex flex-col items-center gap-2"
+            className="relative"
           >
-            <div className="relative w-16 h-16 md:w-20 md:h-20">
-              <img 
-                src="/new_logo.jpeg" 
-                alt="Needle Hue Art Logo" 
-                className="w-full h-full object-contain drop-shadow-sm"
-                onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
-              />
+            <div className="font-script text-4xl md:text-5xl tracking-tight bg-gradient-to-r from-rose-600 via-amber-500 to-rose-600 bg-clip-text text-transparent leading-none drop-shadow-sm">
+              Needle Hue Art
             </div>
-            <div className="flex flex-col items-center">
-              <div className="font-script text-4xl md:text-5xl tracking-tight bg-gradient-to-r from-rose-600 via-amber-500 to-rose-600 bg-clip-text text-transparent leading-none drop-shadow-sm">
-                Needle Hue Art
-              </div>
-              <div className="flex items-center gap-3 mt-3">
-                <div className="h-[1px] w-4 bg-amber-400/50" />
-                <div className="text-[9px] md:text-[11px] tracking-[0.4em] uppercase text-rose-500 font-bold">
-                  Sukhchain Kaur
-                </div>
-                <div className="h-[1px] w-4 bg-amber-400/50" />
-              </div>
-            </div>
+            {/* Subtle vibrant underline */}
+            <motion.div 
+              initial={{ width: 0 }}
+              whileInView={{ width: "100%" }}
+              className="h-[2px] bg-gradient-to-r from-rose-400 via-amber-400 to-rose-400 mt-1"
+            />
           </motion.div>
+          <div className="flex items-center gap-3 mt-3">
+            <div className="h-[1px] w-4 bg-amber-400/50" />
+            <div className="text-[9px] md:text-[11px] tracking-[0.4em] uppercase text-rose-500 font-bold">
+              Sukhchain Kaur
+            </div>
+            <div className="h-[1px] w-4 bg-amber-400/50" />
+          </div>
         </Link>
 
         {/* Right: Icons */}

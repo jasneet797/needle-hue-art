@@ -31,11 +31,11 @@ export default function Footer() {
           {/* Logo & Newsletter */}
           <div className="space-y-8">
             <div className="space-y-6">
-              <div className="relative w-20 h-20">
+              <div className="relative w-24 h-24 mb-4">
                 <img 
-                  src="/new_logo.jpeg" 
+                  src="/logo.jpeg" 
                   alt="Needle Hue Art Logo" 
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-contain rounded-full shadow-lg"
                   onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
                 />
               </div>
