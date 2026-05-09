@@ -88,8 +88,8 @@ export function CleanHero() {
                 playsInline
                 className="w-full h-full object-cover scale-[1.05]"
               >
+                <source src="/new_video.mp4" type="video/mp4" />
                 <source src="/process_video.mp4" type="video/mp4" />
-                <source src="/background_video.mp4" type="video/mp4" />
               </video>
             </motion.div>
 
